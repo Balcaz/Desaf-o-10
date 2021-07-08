@@ -1,0 +1,177 @@
+body {
+
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    font-family: 'Oxygen', sans-serif;
+    margin-block-end: 0mm, !important;
+    margin-bottom: 0px, !important;
+}
+
+#menu1 {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.b1 {
+    float: left;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icono {
+    padding: 15px;
+    margin: 0px;
+    background-color: whitesmoke;
+    font-size: 17px;
+}
+
+.menu {
+    padding: 15px;
+    margin: 0px;
+    background-color: whitesmoke;
+    text-decoration:none;
+    font-size: 17px;
+}
+
+.menu:hover {
+    background-color:rgb(172, 169, 169);
+    padding: 20px;
+    margin: 0px;
+    border: outset 8px blue;
+}
+
+.menu:active {
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 20px;
+    margin: 0px;
+    border: inset 7px blue;
+}
+main {
+    float: left;
+    width: 60%;
+    padding: 80px;
+    margin: 20px;
+}
+
+#Bienvenida {
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    border: solid black;
+    background-color: white;
+}
+
+#componentes {
+    padding: 2px;
+    margin-top: 100px;
+    border: solid black;
+    background-color: white;
+}
+
+#precauciones {
+    padding: 2px;
+    margin-top: 50px;
+    border: solid black;
+    background-color: white;
+}
+
+#herramientas {
+    padding: 2px;
+    margin-top: 50px;
+    border: solid black;
+    background-color: white;
+}
+
+#tutoriales {
+    padding: 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+aside {
+    float: left;
+    width: 28%;
+}
+
+#box1 {
+    padding: 20px;
+    margin: 10px;
+    margin-top: 580px;
+    border: solid black;
+    background-color: yellow;
+}
+
+#box2 {
+    padding: 40px;
+    margin: 10px;
+    margin-top: 150px;
+    border: solid black;
+    background-color: yellow;
+}
+
+h2 {
+    font-family: 'Farro', sans-serif;
+}
+
+ul {
+    font-family: 'Oxygen', sans-serif;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#container-menu {
+    background-color: whitesmoke;
+    padding-top: 13px;
+    padding-bottom: 38px;
+    margin: 0px;
+    border: solid;
+}
+
+.container1 {
+    display: inline-block;
+    width: 990px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 355px;
+    border: solid;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+.cartas1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    float: left;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    left: 332px;
+    border: solid;
+}
+
+#carta1{
+    margin-left: 50px;
+}
+
+footer {
+    display: flex;
+    float: right;
+    width: 100%;
+    padding: 15px;
+    margin: 0px;
+    background-color: darkgray;
+}
